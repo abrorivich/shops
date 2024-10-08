@@ -15,4 +15,4 @@ app.use("/employeToBranch", branchEmployeRouter)
 
 app.use("/*", ErrorHandlerMiddleware.errorHandlerMiddleware)
 
-app.listen(PORT, () => console.log(PORT))
+app.listen(PORT, () => console.log(`PORT: ${PORT} connect`))
